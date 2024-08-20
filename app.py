@@ -1,3 +1,5 @@
+
+
 import streamlit as st
 import json
 import os
@@ -19,11 +21,14 @@ projects = load_json('projects.json')
 publications = load_json('publications.json')
 
 # Display the photo
-st.image('Photo.png', caption='Karthikeya Tallapaneni', use_column_width=True)
+image_path = 'Photo.png'
+if os.path.exists(image_path):
+    st.image(image_path, caption='Karthikeya Tallapaneni', use_column_width=True)
+else:
+    st.error(f"Image not found: {image_path}")
 
 # Portfolio title
 st.title("Karthikeya Tallapaneni - Portfolio")
-
 
 # About Section
 st.header("About Me")
