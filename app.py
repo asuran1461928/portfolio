@@ -15,11 +15,11 @@ def load_json(file_name):
         return []
 
 # Load JSON data
-projects = load_json('data/projects.json')
-publications = load_json('data/publications.json')
+projects = load_json('projects.json')
+publications = load_json('publications.json')
 
 # Display the photo
-st.image('static/photo.png', caption='Karthikeya Tallapaneni', use_column_width=True)
+st.image('Photo.png', caption='Karthikeya Tallapaneni', use_column_width=True)
 
 # Portfolio title
 st.title("Karthikeya Tallapaneni - Portfolio")
