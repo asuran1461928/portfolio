@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Neuromorphic Computing",
+        "date": "11-2023",
+        "description": "Mimics human brain architecture and functionality using spiking neural networks and synaptic connections. Enables ultra-efficient, low-power computing for real-time tasks like pattern recognition and adaptive learning. Offers novel approaches to AI research and energy-efficient computing systems development."
+    },
+    {
+        "title": "Face Recognition with Real-time Database",
+        "date": "05-2023",
+        "description": "Developed a robust face recognition algorithm using deep learning techniques, achieving an accuracy rate of 95%. Integrated the system with a real-time database, allowing instant verification of authorized personnel and generating access logs. Implemented a user-friendly interface for administrators to manage access permissions and monitor system activity."
+    },
+    {
+        "title": "Neural Style Transfer",
+        "date": "07-2022",
+        "description": "Developed and trained a custom convolutional neural network (CNN) model using TensorFlow to perform style transfer. Created a user-friendly web application that allows users to upload their photos and apply different artistic styles. Demonstrated a strong understanding of deep learning concepts, resulting in visually appealing and high-quality stylized images."
+    },
+    {
+        "title": "Debris Avoidance Game",
+        "date": "09-2023",
+        "description": "Utilized sophisticated algorithms for dynamic obstacle avoidance by using trigonometry for angle calculations and collision detection for real-time decision-making. Employed Pygame for efficient graphics rendering and user input handling. Streamlined game loop management and simplified the development of interactive games in Python."
+    },
+    {
+        "title": "Bioinformatics Data Management and Analysis Suite",
+        "date": "03-2023",
+        "description": "Used Python and BioPython to encode and correct DNA sequences, ensuring data integrity in bioinformatics. Employed Python’s multiprocessing and zlib for parallel processing and compression, optimizing performance and storage efficiency. Integrated with BioPython for sequence analysis like GC content calculation, enhancing biological data analysis workflows."
+    }
+]
