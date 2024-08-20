@@ -21,7 +21,7 @@ projects = load_json('projects.json')
 publications = load_json('publications.json')
 
 # Display the photo
-image_path = 'Photo.png'
+image_path = 'Photo.jpg'
 if os.path.exists(image_path):
     st.image(image_path, caption='Karthikeya Tallapaneni', use_column_width=True)
 else:
