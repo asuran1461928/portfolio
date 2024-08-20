@@ -27,9 +27,10 @@ st.markdown("""
             background-color: #f4f4f4;
         }
         .stApp {
-            background-color: #f7f9fc;
+            background-color: #ffffff;
             padding: 2rem;
             border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         /* Header styling */
         .title h1 {
@@ -39,15 +40,15 @@ st.markdown("""
         }
         /* Subheader styling */
         .stHeader h2 {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             color: #004d80;
-            border-bottom: 2px solid #0072b5;
-            padding-bottom: 0.2rem;
+            border-bottom: 3px solid #0072b5;
+            padding-bottom: 0.5rem;
         }
         /* Paragraph styling */
         .stMarkdown p {
             font-size: 1.1rem;
-            line-height: 1.6;
+            line-height: 1.8;
             color: #333;
         }
         /* Column styling */
@@ -56,14 +57,14 @@ st.markdown("""
         }
         /* Project and publication cards */
         .card {
-            background-color: #fff;
-            border-radius: 10px;
+            background-color: #ffffff;
+            border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 1rem;
-            margin-bottom: 1rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
         }
         .card h3 {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             color: #00507a;
             margin-bottom: 0.5rem;
         }
@@ -79,8 +80,9 @@ st.markdown("""
         }
         /* Photo styling */
         .photo img {
-            border-radius: 10px;
-            border: 3px solid #0072b5;
+            border-radius: 50%;
+            border: 4px solid #0072b5;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
     </style>
 """, unsafe_allow_html=True)
@@ -155,7 +157,7 @@ with col2:
     image_path = 'Photo.jpg'
     if os.path.exists(image_path):
         st.markdown('<div class="photo">', unsafe_allow_html=True)
-        st.image(image_path, caption='Karthikeya Tallapaneni', use_column_width=True, width=200)
+        st.image(image_path, caption='Karthikeya Tallapaneni', use_column_width=False, width=200)
         st.markdown('</div>', unsafe_allow_html=True)
     else:
         st.error(f"Image not found: {image_path}")
