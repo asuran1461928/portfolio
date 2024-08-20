@@ -1,17 +1,29 @@
 import streamlit as st
 import json
+import os
 
 # Function to load JSON data
 def load_json(file_name):
-    with open(file_name, 'r') as file:
-        return json.load(file)
+    if not os.path.exists(file_name):
+        st.error(f"File not found: {file_name}")
+        return []
+    try:
+        with open(file_name, 'r') as file:
+            return json.load(file)
+    except json.JSONDecodeError as e:
+        st.error(f"Error reading JSON file {file_name}: {e}")
+        return []
 
-# Load data from JSON files
-projects = load_json('projects.json')
-publications = load_json('publications.json')
+# Load JSON data
+projects = load_json('data/projects.json')
+publications = load_json('data/publications.json')
 
-# Streamlit app layout
+# Display the photo
+st.image('static/photo.png', caption='Karthikeya Tallapaneni', use_column_width=True)
+
+# Portfolio title
 st.title("Karthikeya Tallapaneni - Portfolio")
+
 
 # About Section
 st.header("About Me")
