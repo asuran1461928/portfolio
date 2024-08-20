@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Synergizing AI and CPU: Empowering Next-Generation Computing",
+        "abstract": "This paper explores the integration of AI with CPUs to enhance computational efficiency and performance through architectural innovations and workload optimization techniques.",
+        "doi": "https://doi.org/10.36227/techrxiv.171746831.16717425/v1"
+    },
+    {
+        "title": "Advancements in Space Debris Mitigation: Decomposition Strategies and Alternative Materials for Sustainable Space Exploration",
+        "abstract": "This study examines strategies for mitigating space debris using decomposition techniques and alternative materials to ensure sustainable space exploration.",
+        "doi": "https://doi.org/10.33140/JEEE"
+    },
+    {
+        "title": "Enhancing Home Security with AI-Driven Drone Surveillance",
+        "abstract": "This research focuses on using AI-driven drones for home security, highlighting advancements in surveillance technology, autonomous navigation, and threat detection.",
+        "doi": "https://doi.org/10.33140/JSNDC"
+    }
+]
+publications.json
