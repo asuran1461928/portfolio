@@ -7,8 +7,8 @@ def load_json(file_name):
         return json.load(file)
 
 # Load data from JSON files
-projects = load_json('data/projects.json')
-publications = load_json('data/publications.json')
+projects = load_json('projects.json')
+publications = load_json('publications.json')
 
 # Streamlit app layout
 st.title("Karthikeya Tallapaneni - Portfolio")
