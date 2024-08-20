@@ -8,13 +8,13 @@ def load_json(file_path):
         return json.load(file)
 
 # Load images
-profile_image = Image.open('assets/profile.jpg')
+profile_image = Image.open('Photo.jpg')
 
 # Load JSON data
-education = load_json('data/education.json')
-experience = load_json('data/experience.json')
-projects = load_json('data/projects.json')
-publications = load_json('data/publications.json')
+education = load_json('education.json')
+experience = load_json('experience.json')
+projects = load_json('projects.json')
+publications = load_json('publications.json')
 
 # Header
 st.image(profile_image, width=150)
