@@ -77,6 +77,6 @@ with col2:
     # Display the photo
     image_path = 'Photo.jpg'
     if os.path.exists(image_path):
-        st.image(image_path, caption='Karthikeya Tallapaneni', use_column_width=True, width=150)
+        st.image(image_path, caption='Karthikeya Tallapaneni', use_column_width=True, width=100)
     else:
         st.error(f"Image not found: {image_path}")
